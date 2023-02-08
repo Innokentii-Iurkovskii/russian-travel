@@ -1,0 +1,14 @@
+.cover {
+  padding: 245px 232px;
+  margin-bottom: var(--section-bottom-gutter);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}

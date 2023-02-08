@@ -1,0 +1,11 @@
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cover__subtitle:hover~.cover__link {
+  opacity: .3;
+}

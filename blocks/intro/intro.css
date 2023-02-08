@@ -1,0 +1,4 @@
+.intro {
+  padding: 0 var(--p-lr-xl) var(--section-bottom-gutter);
+  max-width: 690px;
+}

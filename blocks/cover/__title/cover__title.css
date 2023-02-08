@@ -1,0 +1,12 @@
+.cover__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cover__title:hover~.cover__link {
+  opacity: .3;
+}

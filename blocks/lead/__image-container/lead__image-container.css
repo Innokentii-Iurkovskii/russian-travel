@@ -1,0 +1,4 @@
+.lead__image-container {
+  max-width: var(--container-small);
+  margin: auto;
+}

@@ -1,0 +1,9 @@
+.places {
+  max-width: var(--container-small);
+  margin: auto;
+  list-style-type: none;
+  padding: 0 0 var(--section-bottom-gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
