@@ -1,0 +1,30 @@
+:root {
+  --text: #ffffff;
+  --regular-text: 16px;
+  --lineheight: 1.5;
+  --userfont: inter, sans-serif, arial;
+  --container: 48px;
+  --container-small: 984px;
+  --p-lr-xl: 100px;
+  --section-bottom-gutter: 92px;
+}
+
+@media screen and (max-width:1024px) {
+  :root {
+    --p-lr-xl: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  :root {
+    --section-bottom-gutter: 88px;
+    --container: 24px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  :root {
+    --section-bottom-gutter: 64px;
+    --container: 16px;
+  }
+}

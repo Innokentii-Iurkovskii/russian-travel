@@ -9,8 +9,11 @@
       -ms-flex-align: end;
           align-items: end;
   gap: 18px;
-  padding-top: 28px;
-  padding-bottom: 56px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1280px;
+  padding: 28px var(--container) 56px;
+  margin: auto;
 }
 
 @media screen and (max-width:767px) {
