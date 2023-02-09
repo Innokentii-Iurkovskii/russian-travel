@@ -5,13 +5,13 @@
   margin: 0;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width:768px) {
   .place__title {
     font-size: 52px;
   }
 }
 
-@media screen and (max-width : 425px) {
+@media screen and (max-width:425px) {
   .place__title {
     font-size: 32px;
   }

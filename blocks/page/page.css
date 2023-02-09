@@ -45,20 +45,20 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width:1024px) {
   :root {
     --p-lr-xl: 0;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width:768px) {
   :root {
     --section-bottom-gutter: 88px;
     --container: 24px;
   }
 }
 
-@media screen and (max-width : 425px) {
+@media screen and (max-width:425px) {
   :root {
     --section-bottom-gutter: 64px;
     --container: 16px;
