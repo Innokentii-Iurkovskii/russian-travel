@@ -1,10 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* USER VARIABLES SECTION */
 
 :root {
-	--text: #ffffff;
-	--regular-text: 16px;
-	--lineheight: 1.5;
-	--userfont: inter, sans-serif;
+  --text: #ffffff;
+  --regular-text: 16px;
+  --lineheight: 1.5;
+  --userfont: inter;
   --container: 48px;
   --container-small: 984px;
   --p-lr-xl: 100px;
@@ -13,21 +20,22 @@
 
 /* FONTS LOAD SECTION */
 
-@font-face { src: url("../../fonts/inter-regular-webfont.woff2") format("woff2"); font-family: "inter"; font-weight: 400; font-style: normal; }
-@font-face { src: url("../../fonts/inter-bold-webfont.woff2") format("woff2"); font-family: "inter"; font-weight: 700; font-style: normal; }
-@font-face { src: url("../../fonts/inter-black-webfont.woff2") format("woff2"); font-family: "inter"; font-weight: 900; font-style: normal; }
+@font-face { src: url("../../fonts/Inter-Regular.woff2") format("woff2"); font-family: "inter"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../../fonts/Inter-Bold.woff2") format("woff2"); font-family: "inter"; font-weight: 700; font-style: normal; }
+@font-face { src: url("../../fonts/Inter-Black.woff2") format("woff2"); font-family: "inter"; font-weight: 900; font-style: normal; }
 
 /* BLOCK STYLES */
 
 .page {
-	font-family: var(--userfont);
-	font-size: var(--regular-text);
-	line-height: var(--lineheight);
-	color: var(--text);
-	min-width: 320px;
-  box-sizing: border-box;
-	position: relative;
-	overflow-x: hidden;
+  font-family: var(--userfont);
+  font-size: var(--regular-text);
+  line-height: var(--lineheight);
+  color: var(--text);
+  min-width: 320px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
   background: #2A2C2F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,18 +45,22 @@
   text-rendering: optimizeLegibility;
 }
 
-@media (max-width : 1280px) {
-
+@media screen and (max-width : 1024px) {
+  :root {
+    --p-lr-xl: 0;
+  }
 }
 
-@media (max-width : 1024px) {
-  
+@media screen and (max-width : 768px) {
+  :root {
+    --section-bottom-gutter: 88px;
+    --container: 24px;
+  }
 }
 
-@media (max-width : 768px) {
-  
-}
-
-@media (max-width : 425px) {
-  
+@media screen and (max-width : 425px) {
+  :root {
+    --section-bottom-gutter: 64px;
+    --container: 16px;
+  }
 }

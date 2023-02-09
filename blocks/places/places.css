@@ -3,7 +3,18 @@
   margin: auto;
   list-style-type: none;
   padding: 0 0 var(--section-bottom-gutter);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 80px;
+}
+
+@media screen and (max-width : 768px) {
+  .places {
+    gap: 72px;
+  }
 }

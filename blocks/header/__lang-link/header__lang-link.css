@@ -4,9 +4,17 @@
   line-height: 1.17;
   color: #ffffff;
   text-decoration: none;
+  -webkit-transition: opacity ease-in-out .2s;
+  -o-transition: opacity ease-in-out .2s;
   transition: opacity ease-in-out .2s;
 }
 
 .header__lang-link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width : 767px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
 }

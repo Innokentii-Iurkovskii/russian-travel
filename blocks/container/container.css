@@ -1,5 +1,6 @@
 .container {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 1280px;
   padding: 0 var(--container);
   margin: auto;

@@ -4,3 +4,11 @@
   height: auto;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width : 768px) {
+  .lead__image {
+    width: calc(100% + var(--container) * 2);
+    max-width: calc(100% + var(--container) * 2);
+    margin-left: calc(-1 * var(--container));
+  }
+}

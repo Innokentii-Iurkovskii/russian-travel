@@ -9,3 +9,9 @@
 .cover__subtitle:hover~.cover__link {
   opacity: .3;
 }
+
+@media screen and (max-width : 767px) {
+  .cover__subtitle {
+    font-size: 14px;
+  }
+}
