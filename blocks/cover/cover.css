@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width:1024px) {
   .cover {
     margin-left: 0;
     margin-right: 0;
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width : 767px) {
+@media screen and (max-width:767px) {
   .cover {
     padding: 33px var(--container);
     height: auto;
