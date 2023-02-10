@@ -5,13 +5,13 @@
   --userfont: inter, sans-serif, arial;
   --container: 48px;
   --container-small: 984px;
-  --p-lr-xl: 100px;
+  --p-lr-xl: 148px;
   --section-bottom-gutter: 92px;
 }
 
 @media screen and (max-width:1024px) {
   :root {
-    --p-lr-xl: 0;
+    --p-lr-xl: 48px;
   }
 }
 
@@ -19,6 +19,7 @@
   :root {
     --section-bottom-gutter: 88px;
     --container: 24px;
+    --p-lr-xl: 24px;
   }
 }
 
@@ -26,5 +27,6 @@
   :root {
     --section-bottom-gutter: 64px;
     --container: 16px;
+    --p-lr-xl: 16px;
   }
 }

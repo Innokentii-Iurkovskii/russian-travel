@@ -1,4 +1,4 @@
 .lead {
   text-align: center;
-  padding-bottom: var(--section-bottom-gutter);
+  padding: 0 var(--container) var(--section-bottom-gutter);
 }

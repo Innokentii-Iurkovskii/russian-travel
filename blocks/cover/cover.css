@@ -3,9 +3,8 @@
   max-width: 1184px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 20%;
-  margin: 0 auto;
-  margin-bottom: var(--section-bottom-gutter);
+  padding: 245px var(--container);
+  margin: 0 auto var(--section-bottom-gutter) auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +21,10 @@
           justify-content: center;
   position: relative;
   text-align: center;
+  background-image: url(../../images/do-bajkala.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cover::before {
@@ -46,20 +49,20 @@
 
 @media screen and (max-width:1024px) {
   .cover {
-    margin-left: calc(-1 * var(--container));
-    margin-right: 0;
-    width: 100vw;
+    width: 100%;
+    padding: 195px var(--container);
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   .cover {
-    padding: 33px var(--container);
+    padding: 115px var(--container);
   }
 }
 
 @media screen and (max-width:425px) {
   .cover {
+    padding: 33px var(--container);
     gap: 16px;
   }
 }
