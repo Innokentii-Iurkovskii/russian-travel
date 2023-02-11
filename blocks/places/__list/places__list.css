@@ -1,5 +1,6 @@
 .places__list {
-  max-width: var(--container-small);
+  width: calc(100% - (var(--container) * 2));
+  max-width: 984px;
   margin: auto;
   list-style-type: none;
   padding: 0 0 var(--section-bottom-gutter);
@@ -11,6 +12,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 80px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width:768px) {
@@ -22,5 +24,6 @@
 @media screen and (max-width:425px) {
   .places__list {
     gap: 50px;
+    width: 100%;
   }
 }

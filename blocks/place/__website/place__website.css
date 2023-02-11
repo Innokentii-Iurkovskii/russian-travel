@@ -1,5 +1,10 @@
 .place__website {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding: 0 var(--container) 0;
+}
+
+@media screen and (max-width:425px) {
+  .place__website {
+    padding: 0 var(--container) 0;
+  }
 }
