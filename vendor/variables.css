@@ -15,11 +15,16 @@
   }
 }
 
+@media screen and (max-width:1023px) {
+  :root {
+    --container: 24px;
+    --p-lr-xl: 24px;
+  }
+}
+
 @media screen and (max-width:768px) {
   :root {
     --section-bottom-gutter: 88px;
-    --container: 24px;
-    --p-lr-xl: 24px;
   }
 }
 
